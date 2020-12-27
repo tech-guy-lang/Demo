@@ -1,0 +1,30 @@
+FOCUS GROUP MULESOFT FINAL ASSESSMENT
+
+Test Time: 10.00 AM - 5.00 PM
+Lunch Break: 1.00 PM - 2.00 PM
+
+Instructions:
+You are expected to understand the scenario and functional requirements and accordingly create functionalities to meet the requirement. 
+Plan your development and make an assessment document that states the steps taken to meet a particular functionality, if possible include the screenshots to support your statement.
+The Mule project developed in your Studio needs to be extracted as a mule deployable archive and also deployed on cloudhub.the final API on exchange would be considered for evaluation. 
+The API design specs needs to be made public and the concerned URI needs to be shared in your assessment documentation. 
+Place the jar file and assessment documentation(with all details) in the folder, give your full name to the folder without any space and then place the zipped folder in shared drive. Eg:- If the name is “ALEXA ALEX” folder name will be “ALEXA_ALEX” .
+Create a simple design / flow diagram for better understanding.
+
+
+Scenario:
+We are expected to develop an application network for the purchase system for XYZ company. This company has their customer data and product details in a local mySQL/dbforfree.net database that resides on a local server. The company is planning to create an order management system which has a purchase and complaint management system for their existing customers. 
+
+As a MuleSoft developer , you are expected to follow API first approach to provide a solution to the customer like develop API spec for different types of APIs(system, process and experience), proper responses to the user. 
+
+Functional requirement: 
+Customer should be able to see their details
+Customers should be able to see the product details that are available.
+Customers should be able to order the products that are available. 
+In case of any exception raised, it needs to respond back with a proper message. 
+Customers can order multiple items and multiple units of the same item. 
+Once the order is placed, there should be an invoice generated with the bill amount to be paid and the product details of items purchased. This invoice should be saved asynchronously to the file system. 
+Customers should be able to see their previous order.
+Customers should be able to raise complaints against their previous order.
+Proper error handling and design best practices need to be involved while developing a solution.
+Automate a task to generate the record at 5 pm each day of the transactions done in a day. The record needs to be stored in a file and each file can contain max of 10 records. Consider the fact that on a particular day the transaction count can be as much as 10,000. 
